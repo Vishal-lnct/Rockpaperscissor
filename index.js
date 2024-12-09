@@ -33,6 +33,7 @@ const showwinner = (userwin) => {
         console.log("You lose");
         msg.innerText = "You lose!";
         msg.style.backgroundColor = "white"; 
+        msg.style.color = "red"; 
     }
 };
 

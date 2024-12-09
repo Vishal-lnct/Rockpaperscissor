@@ -1,0 +1,136 @@
+*{
+    justify-content: center;
+    /* height:300px; */
+   
+}
+
+h1{
+    background-color:black;
+    color:#fff;
+    height:5rem;
+    line-height:5rem;
+    text-align:center;
+}
+.choice{
+    height:165px;
+    width:165px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    object-fit:cover;
+}
+.choice:hover{
+    opacity:0.5;
+    cursor:pointer;
+
+}
+img{
+    height:100px;
+    width:100px;
+    object-fit:cover;
+}
+.choices{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+    margin-top:2rem;
+}
+/* .score-board{
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+    align-items:inline; */
+
+/* } */
+.score-board{
+    margin-top: 4px;
+    display:flex;
+   justify-content:center;
+   align-items:center;
+   font-size:2rem;
+   gap: 2px;
+   margin:2rem;
+
+}
+.score{
+    gap:2rim;
+    margin:2rem;
+    /* height:15px;
+    width: 15px; */
+}
+#user-score{
+    font-size:50px;
+}
+#comp-score{
+    font-size:50px;
+}
+
+
+
+#msg{
+    text-align:center;
+    font-size:30px;
+    margin-top:1rem;
+    color:black;
+    /* display: inline; */
+    
+    /* background-color:black; */
+}
+.msg-container{
+    margin-top:0px
+}
+#msg{
+margin-top:1rem;
+color:red;
+background-color:black;
+font-family: fantasy;
+}
+#you{
+font-family:fantasy ;
+}
+#comp{
+font-family: fantasy;
+}
+#border{
+    border-radius: 120px;
+}
+#flex{
+    display:flex;
+    justify-content:space-between;
+    height:0px;
+    width:100px;
+    gap:5rem;
+    margin-top:1rem;
+    margin-left: 550px;
+
+}
+.win{
+    animation: nikhil 0.05s linear 0s 1 normal;
+    position: absolute;
+    margin-left: 300px;
+   
+}
+@keyframes nikhil{
+    0%{
+      width: 0px;
+      height: 0px;
+    }
+    25%{
+        width: 20px;
+        height: 20px;
+    }
+    50%{
+        width: 40px;
+        height: 40px;
+    }
+    75%{
+        width: 60px;
+        height: 60px;
+    }
+    100%{
+        width: 80px;
+        height: 80px;
+    }
+}
